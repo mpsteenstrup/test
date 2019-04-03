@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>AstroPiRys</title>
+ 
+  <script>document.createElement("banner")</script>
+
+ <link rel="stylesheet" type="text/css" href="../mystyle.css">
+
+</head>
+
+<body>
+
+<banner>
+Data fra fysiklokalet, Rysensteen Gymnasium 2018.
+</banner>
+
+<h1><hr>  </h1>
+
+ <blog>
+<h1> AstroPiRys </h1>
+Det er en lille computer, en raspberry pi, som fylder det samme som et spil kort. På den er der en overbygning med sensorer og et display.
+</br></br>
+Udover at kunne måle temperatur, tryk, acceleration mm. Har AstroPien også et kamera. Den ene enhed er placeret så kameraet vender ind i rumstationen, mens det andet ser ud gennem et vindue, ned på Jorden.
+</br></br>
+Det europæiske rumagentur, ESA, har sendt dem derop, så det er muligt for elver at lave forsøg på rumstationen. For at få lov til det skal man få  en forsøgsbeskrivelse godkendt og man skal programmere AstroPi’en og sende koden til ESA. 
+</br></br>
+
+Hvis man bliver godkendt kommer ens program til at køre på ISS i 3 timer. På 3 timer kommer  rumstationen to gange rundt om jorden.
+</br></br>
+Projektets hjemmeside kan findes her:<a href  https://astro-pi.org/missions/space-lab/> Astro-pi.org </a>
+</br></br>
+<h1>AstroPiRys</h1>
+For at forberede os på missionen har vi en AstroPi siddende i fysiklokalet. De data den måler bliver sendt til Thingspeak og I kan se dem nedenfor.  Hvis I vil gemme data kan i gøre det her, <a href=https://thingspeak.com/channels/562954> Thingspeak.com </a>.
+<h1> Kodning</h1>
+For at få ArtroPi'en til at samarbejde skal man kode den. Koden til målingerne og upload til thinspeak er her, <a href='dataThingspeak.py'> dataThingspeak.py </a>.
+
+<h1>#AstroPiRys</h1>
+Vores AstroPi i fysiklokalet er på twitter, eller lytter til #AstroPiRys. Man kan skrive beskeder til den, helst uden æ,ø,å. Koden til twitter er her <a href='AstroPiRys.py'> #AstriPyRys </a>.
+ </blog>	
+
+<h1><hr>  </h1>
+
+ <figure>
+	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+ 
+<figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxis=acceleration"></iframe>
+ </figure>
+ 
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxis=magnetic+field+x"></iframe>
+ </figure>
+ 
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxis=magnetic+field+y"></iframe>
+ </figure>
+ 
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+
+
+
+
+
+</body>
+</html>
+	
+
+
+
+</body>
+</html>
