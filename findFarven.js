@@ -13,11 +13,19 @@ function setup() {
   gSlider = createSlider(0, 255, 0).parent('slider-holder');
   bSlider = createSlider(0, 255, 0 ).parent('slider-holder');
   nyFarve = createButton('nyFarve');
+  visAfvigelse = createButton('visAfvigelse');
   nyFarve.mousePressed(ny);
   nyFarve.parent('nyFarve-holder');
+  visAfvigelse.mousePressed(vis);
+  visAfvigelse.parent('visAfvigelse');
   startr = random(0,255);
   startg = random(0,255);
   startb = random(0,255);
+}
+
+function vis(){
+  text('afvigelse: ' + round(afvigelse), 400, 350);
+
 }
 
 function ny() {
@@ -44,5 +52,5 @@ function draw() {
   ellipse(200,250,200,200);
   afvigelse = sqrt((r-startr)**2+(g-startg)**2+(b-startb)**2);
   fill(255);
-  text('afvigelse: ' + round(afvigelse), 400, 350);
+
 }
