@@ -3,8 +3,8 @@
 # Projekter
 - DASG
 - FN programmerings innovationsdage
-- Kvantecomputer -> mangler beskrivelse og link til film.
-- AstroPi kursus -> mangler henvisning til kursusmateriale eller andet.
+- Kvantecomputer
+- AstroPi kursus
 
 
 # opdeling
