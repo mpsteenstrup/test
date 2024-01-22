@@ -14,3 +14,5 @@
   - Fysik
   - matematik
   - Informatik
+
+* Billedmanipulation
